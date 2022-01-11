@@ -609,7 +609,7 @@ section {
         background-position: center;
     }
     .descripcion_3 {
-        background-image: url("../images/supermario.jpeg");
+        background-image: url("../images/mando_ps5.jpg");
         background-color: rgba(240, 239, 239, 0.918);
         background-blend-mode: lighten;
         background-size: cover;
@@ -625,13 +625,13 @@ section {
         margin: 3rem auto;
     }
     .descripcion_1 p {
-        background-color: rgba(175, 174, 174, 0.822);
+        background-color: rgba(175, 174, 174, .9);
     }
     .descripcion_2 p {
-        background-color: rgba(209, 154, 154, 0.863);
+        background-color: rgba(209, 154, 154, .9);
     }
     .descripcion_3 p {
-        background-color: rgba(175, 174, 174, 0.822);
+        background-color: rgba(175, 174, 174, .9);
     }
 }
 
@@ -907,7 +907,8 @@ section {
         padding: 1.5rem 2rem;
     }
      .logo_trabajo {
-        margin: 1rem 2rem;
+        height: 6rem;
+        margin: 1rem;
     } 
     .explicacion_trabajo {
         font-size: 1.4rem;
@@ -915,29 +916,41 @@ section {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 580px) {
     .boton_trabajo {
         font-size: 1.2rem;
     }
     .logo_trabajo {
-        margin: 1.5rem;
+        height: 4rem;
+        margin: 1rem;
     }
     .explicacion_trabajo {
         font-size: 1.2rem;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .boton_trabajo {
         font-size: .8rem;
         margin: 0 .5rem;
     }
     .logo_trabajo {
-        height: 6rem;
-        margin: .7rem;
+        height: 3rem;
+        margin: 1rem;
     }
     .explicacion_trabajo {
         font-size: .9rem;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logo_trabajo {
+        height: 2rem;
+        margin: 1rem;
+    }
+    .explicacion_trabajo {
+        margin: 2rem 0;
     }
 }
 
